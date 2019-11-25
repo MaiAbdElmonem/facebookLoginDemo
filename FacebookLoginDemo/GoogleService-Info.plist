@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>573024725243-ar7lrmkivrggf9dfpt1mujoakb48m970.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.573024725243-ar7lrmkivrggf9dfpt1mujoakb48m970</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBh-3J3XbyqM0Mqlz7FurMcEQK-u2FeOnU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>573024725243</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ibtikar.FacebookLoginDemo</string>
+	<key>PROJECT_ID</key>
+	<string>facebooklogindemo-ccb49</string>
+	<key>STORAGE_BUCKET</key>
+	<string>facebooklogindemo-ccb49.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:573024725243:ios:bc3ebfe024209ee913285e</string>
+	<key>DATABASE_URL</key>
+	<string>https://facebooklogindemo-ccb49.firebaseio.com</string>
+</dict>
+</plist>
