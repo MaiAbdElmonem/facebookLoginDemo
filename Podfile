@@ -7,8 +7,10 @@ target 'FacebookLoginDemo' do
 
   # Pods for FacebookLoginDemo
 pod 'Firebase/Auth'
- pod 'FBSDKLoginKit'
-pod 'FacebookCore'
-pod 'FacebookLogin'
+pod 'Firebase/Core'
+pod 'Firebase/Firestore'
+pod 'FBSDKLoginKit'
 pod 'FBSDKCoreKit'
+pod 'SDWebImage', '~> 5.0'
+pod 'FirebaseStorage'
 end
