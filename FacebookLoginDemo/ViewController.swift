@@ -111,6 +111,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                                    let email = data["email"] as? String ?? ""
                                    let coverImage = data["coverPhoto"] as? String ?? ""
                                    let profilePhoto = data["profileImage"] as? String ?? ""
+//                                let storageRef = Storage.storage().reference(forURL: profilePhoto)
                                 self.nameLabel.text = name
                                 self.emailLabel.text = email
                                 let placeholderimage = #imageLiteral(resourceName: "apple")
@@ -174,13 +175,13 @@ extension ViewController {
                return
              }
                 storageRef.downloadURL { (url, error) in
-                    guard let downloadURL = url else {
-                    // Uh-oh, an error occurred!
-                    print("error")
-                        return
-                    }
+                    guard let downloadURL = url else {return}
                     print(downloadURL.absoluteString)
-
+                    if self.selected == 1 {
+                        self.db.collection("Profiles").document("profiles").updateData(["coverPhoto": downloadURL.absoluteString])
+                    } else {
+                    self.db.collection("Profiles").document("profiles").updateData(["profileImage": downloadURL.absoluteString])
+                    }
         }
     }
   }
